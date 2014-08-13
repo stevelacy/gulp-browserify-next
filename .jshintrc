@@ -1,7 +1,6 @@
 {
   "camelcase": true,
   "curly": true,
-  "eqeqeq": true,
   "freeze": true,
   "indent": 2,
   "newcap": false,
@@ -11,7 +10,6 @@
   "maxlen": 80,
   "eqnull": true,
   "funcscope": true,
-  "strict": true,
   "undef": true,
   "unused": true,
   "node": true,
