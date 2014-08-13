@@ -1,48 +1,4 @@
-# gulp-browserify-next [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
-
-
-## Information
-
-<table>
-<tr>
-<td>Package</td>
-<td>gulp-browserify-next</td>
-</tr>
-<tr>
-<td>Description</td>
-<td>gulp plugin for browserify</td>
-</tr>
-<tr>
-<td>Node Version</td>
-<td>>= 0.10</td>
-</tr>
-</table>
-
-## Usage
-
-## install
-
-```
-npm install gulp-browserify-next --save
-
-```
-## Example
-
-```js
-
-EXAMPLEHERE
-
-```
-
-
-
-You can view more examples in the [example folder.](https://github.com/stevelacy/gulp-browserify-next/tree/master/examples)
-
-## LICENSE
-
-(MIT License)
-
-Copyright (c) 2014 Steve Lacy <me@slacy.me>
+Copyright (c) 2014 Steve Lacy me@slacy.me
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -62,11 +18,3 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-[npm-url]: https://npmjs.org/package/gulp-browserify-next
-[npm-image]: http://img.shields.io/npm/v/gulp-browserify-next.svg
-
-[travis-url]: https://travis-ci.org/stevelacy/gulp-browserify-next
-[travis-image]: https://travis-ci.org/stevelacy/gulp-browserify-next.png?branch=master

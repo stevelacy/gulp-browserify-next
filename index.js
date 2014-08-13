@@ -3,9 +3,11 @@ var browserify = require('browserify');
 var through = require('through2');
 var gutil = require('gulp-util');
 
-module.exports = function(outFile, opt) {
+module.exports = function(outFile, opts) {
 
-  if (!outFile) throw new gutil.PluginError('gulp-browserify-next', 'missing outFile name option');
+  if (!outFile) return new gutil.PluginError('gulp-browserify-next', 'missing outFile name option');
+
+  opts = opts ? opts : {};
   var files = [];
   var first = null;
 
@@ -20,7 +22,7 @@ module.exports = function(outFile, opt) {
   var flush = function(cb) {
     var b, self;
     self = this;
-    b = browserify(files);
+    b = browserify(files, opts);
 
     return b.bundle(function(err, data) {
       var newFile = first.clone();
